@@ -7,38 +7,48 @@
     <name>Debug</name>
     <outputs>
       <file>$PROJ_DIR$\Main.c</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\RobotCar.ulp</file>
-      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
-      <file>$PROJ_DIR$\Debug\Obj\RobotCar.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\Main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$TOOLKIT_DIR$\inc\msp430x20x3.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\Main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$PROJ_DIR$\Debug\Exe\RobotCar.d43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RobotCar.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\RobotCar.ulp</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\Main.c</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 10</file>
+          <name>BICOMP</name>
+          <file> 18</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 5</file>
+          <name>ICC430</name>
+          <file> 14</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC430</name>
-          <file> 7 1 9 8</file>
+          <name>BICOMP</name>
+          <file> 9 17 15 19 6 2 4 7 10 8 5 3 12 1</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 7 1 9 8</file>
+          <name>ICC430</name>
+          <file> 9 17 15 19 6 2 4 7 10 8 5 3 12 1</file>
         </tool>
       </inputs>
     </file>
@@ -47,7 +57,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 3 10 6</file>
+          <file> 13 14 11</file>
         </tool>
       </inputs>
     </file>
@@ -56,11 +66,11 @@
       <outputs>
         <tool>
           <name>ULP430</name>
-          <file> 2</file>
+          <file> 21</file>
         </tool>
         <tool>
           <name>XLINK</name>
-          <file> 11</file>
+          <file> 16</file>
         </tool>
       </outputs>
     </file>
