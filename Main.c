@@ -29,7 +29,7 @@
 #define STATE_COMPLETE_LAP 4
 #define STATE_STOPPED 5
 
-int State = STATE_DRIVE_FORWARD;
+int State = STATE_STANDBY;
 int LastState = STATE_DRIVE_FORWARD;
 int Laps = 0;
 
@@ -187,7 +187,7 @@ void Initialize()
 __interrupt void ADC10_ISR (void) 
 {
   int temp = ADC10MEM;
-  if(temp > 764)
+  if(temp > 770)
   {
     State = STATE_DRIVE_FORWARD;
   }
