@@ -1218,13 +1218,7 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:975:9: macro definition=TIMER1_A0_VECTOR <US>c:macro@TIMER1_A0_VECTOR<UE> <DS>TIMER1_A0_VECTOR<DE> Extent=<ES>975:9 - 975:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:976:9: macro definition=NMI_VECTOR <US>c:macro@NMI_VECTOR<UE> <DS>NMI_VECTOR<DE> Extent=<ES>976:9 - 976:38<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:977:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>977:9 - 977:38<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:2:1: inclusion directive=stdbool.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h<IE>  [multi-include guarded] Extent=<ES>2:1 - 2:11<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:7:9: macro definition=_STDBOOL <US>c:macro@_STDBOOL<UE> <DS>_STDBOOL<DE> Extent=<ES>7:9 - 7:17<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:20:9: macro definition=bool <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>20:9 - 20:19<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:21:9: macro definition=true <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>21:9 - 21:15<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:22:9: macro definition=false <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>22:9 - 22:16<EE>
-<L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:26:9: macro definition=__bool_true_false_are_defined <US>c:macro@__bool_true_false_are_defined<UE> <DS>__bool_true_false_are_defined<DE> Extent=<ES>26:9 - 26:40<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:3:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>3:1 - 3:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:2:1: inclusion directive=stdio.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h<IE>  Extent=<ES>2:1 - 2:11<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:4:9: macro definition=_STDIO <US>c:macro@_STDIO<UE> <DS>_STDIO<DE> Extent=<ES>4:9 - 4:15<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:10:1: inclusion directive=ycheck.h <US><UE> <DS><DE> <IS>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\ycheck.h<IE>  Extent=<ES>10:1 - 10:11<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\ycheck.h:21:11: macro definition=__INTRINSIC <US>c:macro@__INTRINSIC<UE> <DS>__INTRINSIC<DE> Extent=<ES>21:11 - 21:34<EE>
@@ -1612,69 +1606,75 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:206:1: macro expansion=_END_C_LIB_DECL|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\yvals.h:305:11 <US>c:macro@_END_C_LIB_DECL<UE> <DS>_END_C_LIB_DECL<DE> Extent=<ES>206:1 - 206:16<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:211:7: macro expansion=_DLIB_FILE_DESCRIPTOR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\DLib_Defaults.h:103:9 <US>c:macro@_DLIB_FILE_DESCRIPTOR<UE> <DS>_DLIB_FILE_DESCRIPTOR<DE> Extent=<ES>211:7 - 211:28<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:228:1: macro expansion=_C_STD_END|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\yvals.h:297:11 <US>c:macro@_C_STD_END<UE> <DS>_C_STD_END<DE> Extent=<ES>228:1 - 228:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:6:9: macro definition=LEFT_MOTOR_ADDRESS <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>6:9 - 6:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:9:9: macro definition=RIGHT_MOTOR_ADDRESS <US>c:macro@RIGHT_MOTOR_ADDRESS<UE> <DS>RIGHT_MOTOR_ADDRESS<DE> Extent=<ES>9:9 - 9:33<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:12:9: macro definition=RIGHT_SENSOR_ADDRESS <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>12:9 - 12:34<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:13:9: macro definition=RIGHT_SENSOR <US>c:macro@RIGHT_SENSOR<UE> <DS>RIGHT_SENSOR<DE> Extent=<ES>13:9 - 13:23<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:16:9: macro definition=MIDDLE_SENSOR_ADDRESS <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>16:9 - 16:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:19:9: macro definition=LEFT_SENSOR_ADDRESS <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>19:9 - 19:33<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9: macro definition=LEFT_SENSOR <US>c:macro@LEFT_SENSOR<UE> <DS>LEFT_SENSOR<DE> Extent=<ES>20:9 - 20:22<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:22:9: macro definition=NO_SENSOR <US>c:macro@NO_SENSOR<UE> <DS>NO_SENSOR<DE> Extent=<ES>22:9 - 22:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:23:9: macro definition=ALL_SENSORS <US>c:macro@ALL_SENSORS<UE> <DS>ALL_SENSORS<DE> Extent=<ES>23:9 - 23:22<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:25:9: macro definition=STATE_STANDBY <US>c:macro@STATE_STANDBY<UE> <DS>STATE_STANDBY<DE> Extent=<ES>25:9 - 25:24<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:26:9: macro definition=STATE_DRIVE_FORWARD <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>26:9 - 26:30<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:27:9: macro definition=STATE_TURN_LEFT <US>c:macro@STATE_TURN_LEFT<UE> <DS>STATE_TURN_LEFT<DE> Extent=<ES>27:9 - 27:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:28:9: macro definition=STATE_TURN_RIGHT <US>c:macro@STATE_TURN_RIGHT<UE> <DS>STATE_TURN_RIGHT<DE> Extent=<ES>28:9 - 28:27<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:29:9: macro definition=STATE_COMPLETE_LAP <US>c:macro@STATE_COMPLETE_LAP<UE> <DS>STATE_COMPLETE_LAP<DE> Extent=<ES>29:9 - 29:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:30:9: macro definition=STATE_STOPPED <US>c:macro@STATE_STOPPED<UE> <DS>STATE_STOPPED<DE> Extent=<ES>30:9 - 30:24<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:32:13: macro expansion=STATE_STANDBY|D:\K1533\RobotCarRepo\RobotCar\Main.c:25:9 <US>c:macro@STATE_STANDBY<UE> <DS>STATE_STANDBY<DE> Extent=<ES>32:13 - 32:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:33:17: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>33:17 - 33:36<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:38:12: macro expansion=WDTPW|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:906:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>38:12 - 38:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:38:20: macro expansion=WDTHOLD|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:904:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>38:20 - 38:27<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:43:11: macro expansion=LEFT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:6:9 <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>43:11 - 43:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:48:11: macro expansion=RIGHT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:9:9 <US>c:macro@RIGHT_MOTOR_ADDRESS<UE> <DS>RIGHT_MOTOR_ADDRESS<DE> Extent=<ES>48:11 - 48:30<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:62:1: macro expansion=bool|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>62:1 - 62:5<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:64:17: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:19:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>64:17 - 64:36<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:67:1: macro expansion=bool|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>67:1 - 67:5<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:69:17: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:16:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>69:17 - 69:38<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:72:1: macro expansion=bool|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>72:1 - 72:5<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:74:17: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:12:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>74:17 - 74:37<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:3: macro expansion=bool|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>81:3 - 81:7<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:3: macro expansion=bool|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>82:3 - 82:7<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:3: macro expansion=bool|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>83:3 - 83:7<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:91:13: macro expansion=STATE_COMPLETE_LAP|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:9 <US>c:macro@STATE_COMPLETE_LAP<UE> <DS>STATE_COMPLETE_LAP<DE> Extent=<ES>91:13 - 91:31<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:95:13: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>95:13 - 95:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:99:13: macro expansion=STATE_TURN_LEFT|D:\K1533\RobotCarRepo\RobotCar\Main.c:27:9 <US>c:macro@STATE_TURN_LEFT<UE> <DS>STATE_TURN_LEFT<DE> Extent=<ES>99:13 - 99:28<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:103:13: macro expansion=STATE_TURN_RIGHT|D:\K1533\RobotCarRepo\RobotCar\Main.c:28:9 <US>c:macro@STATE_TURN_RIGHT<UE> <DS>STATE_TURN_RIGHT<DE> Extent=<ES>103:13 - 103:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:109:16: macro expansion=ENC|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:183:9 <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>109:16 - 109:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:109:22: macro expansion=ADC10SC|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:182:9 <US>c:macro@ADC10SC<UE> <DS>ADC10SC<DE> Extent=<ES>109:22 - 109:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:125:11: macro expansion=LEFT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:6:9 <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>125:11 - 125:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:144:20: macro expansion=STATE_COMPLETE_LAP|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:9 <US>c:macro@STATE_COMPLETE_LAP<UE> <DS>STATE_COMPLETE_LAP<DE> Extent=<ES>144:20 - 144:38<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:152:13: macro expansion=STATE_STOPPED|D:\K1533\RobotCarRepo\RobotCar\Main.c:30:9 <US>c:macro@STATE_STOPPED<UE> <DS>STATE_STOPPED<DE> Extent=<ES>152:13 - 152:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:163:11: macro expansion=LEFT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:6:9 <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>163:11 - 163:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:164:11: macro expansion=RIGHT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:9:9 <US>c:macro@RIGHT_MOTOR_ADDRESS<UE> <DS>RIGHT_MOTOR_ADDRESS<DE> Extent=<ES>164:11 - 164:30<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:166:12: macro expansion=TASSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:597:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>166:12 - 166:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:166:23: macro expansion=ID_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:591:9 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>166:23 - 166:27<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:166:30: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:588:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>166:30 - 166:34<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:167:14: macro expansion=OUTMOD_7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>167:14 - 167:22<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:170:11: macro expansion=LEFT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:6:9 <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>170:11 - 170:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:178:15: macro expansion=INCH_10|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:264:9 <US>c:macro@INCH_10<UE> <DS>INCH_10<DE> Extent=<ES>178:15 - 178:22<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:178:25: macro expansion=ADC10DIV_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:243:9 <US>c:macro@ADC10DIV_3<UE> <DS>ADC10DIV_3<DE> Extent=<ES>178:25 - 178:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:15: macro expansion=SREF_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:204:9 <US>c:macro@SREF_1<UE> <DS>SREF_1<DE> Extent=<ES>179:15 - 179:21<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:24: macro expansion=ADC10SHT_3|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:201:9 <US>c:macro@ADC10SHT_3<UE> <DS>ADC10SHT_3<DE> Extent=<ES>179:24 - 179:34<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:37: macro expansion=REFON|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:187:9 <US>c:macro@REFON<UE> <DS>REFON<DE> Extent=<ES>179:37 - 179:42<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:45: macro expansion=ADC10ON|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:186:9 <US>c:macro@ADC10ON<UE> <DS>ADC10ON<DE> Extent=<ES>179:45 - 179:52<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:55: macro expansion=ADC10IE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:185:9 <US>c:macro@ADC10IE<UE> <DS>ADC10IE<DE> Extent=<ES>179:55 - 179:62<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:187:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>187:1 - 187:12<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:192:13: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>192:13 - 192:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:194:29: macro expansion=CPUOFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:85:9 <US>c:macro@CPUOFF<UE> <DS>CPUOFF<DE> Extent=<ES>194:29 - 194:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:202:10: macro expansion=true|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>202:10 - 202:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:206:10: macro expansion=STATE_STANDBY|D:\K1533\RobotCarRepo\RobotCar\Main.c:25:9 <US>c:macro@STATE_STANDBY<UE> <DS>STATE_STANDBY<DE> Extent=<ES>206:10 - 206:23<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:209:10: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>209:10 - 209:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:212:10: macro expansion=STATE_TURN_LEFT|D:\K1533\RobotCarRepo\RobotCar\Main.c:27:9 <US>c:macro@STATE_TURN_LEFT<UE> <DS>STATE_TURN_LEFT<DE> Extent=<ES>212:10 - 212:25<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:215:10: macro expansion=STATE_TURN_RIGHT|D:\K1533\RobotCarRepo\RobotCar\Main.c:28:9 <US>c:macro@STATE_TURN_RIGHT<UE> <DS>STATE_TURN_RIGHT<DE> Extent=<ES>215:10 - 215:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:218:10: macro expansion=STATE_COMPLETE_LAP|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:9 <US>c:macro@STATE_COMPLETE_LAP<UE> <DS>STATE_COMPLETE_LAP<DE> Extent=<ES>218:10 - 218:28<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:221:10: macro expansion=STATE_STOPPED|D:\K1533\RobotCarRepo\RobotCar\Main.c:30:9 <US>c:macro@STATE_STOPPED<UE> <DS>STATE_STOPPED<DE> Extent=<ES>221:10 - 221:23<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:5:9: macro definition=LEFT_MOTOR_ADDRESS <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>5:9 - 5:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:8:9: macro definition=RIGHT_MOTOR_ADDRESS <US>c:macro@RIGHT_MOTOR_ADDRESS<UE> <DS>RIGHT_MOTOR_ADDRESS<DE> Extent=<ES>8:9 - 8:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9: macro definition=RIGHT_SENSOR_ADDRESS <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>11:9 - 11:34<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9: macro definition=MIDDLE_SENSOR_ADDRESS <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>14:9 - 14:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9: macro definition=LEFT_SENSOR_ADDRESS <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>17:9 - 17:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:19:9: macro definition=STATE_STANDBY <US>c:macro@STATE_STANDBY<UE> <DS>STATE_STANDBY<DE> Extent=<ES>19:9 - 19:24<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9: macro definition=STATE_DRIVE_FORWARD <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>20:9 - 20:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:21:9: macro definition=STATE_TURN_LEFT <US>c:macro@STATE_TURN_LEFT<UE> <DS>STATE_TURN_LEFT<DE> Extent=<ES>21:9 - 21:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:22:9: macro definition=STATE_TURN_RIGHT <US>c:macro@STATE_TURN_RIGHT<UE> <DS>STATE_TURN_RIGHT<DE> Extent=<ES>22:9 - 22:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:23:9: macro definition=STATE_COMPLETE_LAP <US>c:macro@STATE_COMPLETE_LAP<UE> <DS>STATE_COMPLETE_LAP<DE> Extent=<ES>23:9 - 23:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:24:9: macro definition=STATE_STOPPED <US>c:macro@STATE_STOPPED<UE> <DS>STATE_STOPPED<DE> Extent=<ES>24:9 - 24:24<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:26:13: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>26:13 - 26:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:27:17: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>27:17 - 27:36<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:35:12: macro expansion=WDTPW|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:906:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>35:12 - 35:17<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:35:20: macro expansion=WDTHOLD|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:904:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>35:20 - 35:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:51:18: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>51:18 - 51:37<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:57:18: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>57:18 - 57:39<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:63:18: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>63:18 - 63:38<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:94:16: macro expansion=ENC|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:183:9 <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>94:16 - 94:19<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:94:22: macro expansion=ADC10SC|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:182:9 <US>c:macro@ADC10SC<UE> <DS>ADC10SC<DE> Extent=<ES>94:22 - 94:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:108:15: macro expansion=STATE_COMPLETE_LAP|D:\K1533\RobotCarRepo\RobotCar\Main.c:23:9 <US>c:macro@STATE_COMPLETE_LAP<UE> <DS>STATE_COMPLETE_LAP<DE> Extent=<ES>108:15 - 108:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:113:15: macro expansion=STATE_TURN_LEFT|D:\K1533\RobotCarRepo\RobotCar\Main.c:21:9 <US>c:macro@STATE_TURN_LEFT<UE> <DS>STATE_TURN_LEFT<DE> Extent=<ES>113:15 - 113:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:118:13: macro expansion=STATE_TURN_RIGHT|D:\K1533\RobotCarRepo\RobotCar\Main.c:22:9 <US>c:macro@STATE_TURN_RIGHT<UE> <DS>STATE_TURN_RIGHT<DE> Extent=<ES>118:13 - 118:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:130:13: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>130:13 - 130:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:142:13: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>142:13 - 142:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:156:13: macro expansion=STATE_STOPPED|D:\K1533\RobotCarRepo\RobotCar\Main.c:24:9 <US>c:macro@STATE_STOPPED<UE> <DS>STATE_STOPPED<DE> Extent=<ES>156:13 - 156:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:163:15: macro expansion=STATE_TURN_LEFT|D:\K1533\RobotCarRepo\RobotCar\Main.c:21:9 <US>c:macro@STATE_TURN_LEFT<UE> <DS>STATE_TURN_LEFT<DE> Extent=<ES>163:15 - 163:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:167:15: macro expansion=STATE_TURN_RIGHT|D:\K1533\RobotCarRepo\RobotCar\Main.c:22:9 <US>c:macro@STATE_TURN_RIGHT<UE> <DS>STATE_TURN_RIGHT<DE> Extent=<ES>167:15 - 167:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:174:11: macro expansion=LEFT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:5:9 <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>174:11 - 174:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:175:11: macro expansion=RIGHT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:8:9 <US>c:macro@RIGHT_MOTOR_ADDRESS<UE> <DS>RIGHT_MOTOR_ADDRESS<DE> Extent=<ES>175:11 - 175:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:178:12: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>178:12 - 178:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:178:35: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>178:35 - 178:56<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:178:59: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>178:59 - 178:78<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:12: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>179:12 - 179:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:35: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>179:35 - 179:56<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:179:59: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>179:59 - 179:78<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:181:12: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>181:12 - 181:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:181:35: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>181:35 - 181:56<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:181:59: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>181:59 - 181:78<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:182:11: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>182:11 - 182:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:182:34: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>182:34 - 182:55<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:182:58: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>182:58 - 182:77<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:183:27: macro expansion=GIE|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:84:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>183:27 - 183:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:185:12: macro expansion=TASSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:597:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>185:12 - 185:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:185:23: macro expansion=ID_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:591:9 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>185:23 - 185:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:185:30: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:588:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>185:30 - 185:34<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:186:14: macro expansion=OUTMOD_7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>186:14 - 186:22<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:189:11: macro expansion=LEFT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:5:9 <US>c:macro@LEFT_MOTOR_ADDRESS<UE> <DS>LEFT_MOTOR_ADDRESS<DE> Extent=<ES>189:11 - 189:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:191:12: macro expansion=TASSEL_2|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:597:9 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>191:12 - 191:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:191:23: macro expansion=ID_0|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:591:9 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>191:23 - 191:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:191:30: macro expansion=MC_1|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:588:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>191:30 - 191:34<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:192:14: macro expansion=OUTMOD_7|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:623:9 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>192:14 - 192:22<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:195:11: macro expansion=RIGHT_MOTOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:8:9 <US>c:macro@RIGHT_MOTOR_ADDRESS<UE> <DS>RIGHT_MOTOR_ADDRESS<DE> Extent=<ES>195:11 - 195:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:207:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>207:1 - 207:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:212:40: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>212:40 - 212:61<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:213:14: macro expansion=MIDDLE_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:14:9 <US>c:macro@MIDDLE_SENSOR_ADDRESS<UE> <DS>MIDDLE_SENSOR_ADDRESS<DE> Extent=<ES>213:14 - 213:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:218:38: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>218:38 - 218:57<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:219:14: macro expansion=LEFT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:17:9 <US>c:macro@LEFT_SENSOR_ADDRESS<UE> <DS>LEFT_SENSOR_ADDRESS<DE> Extent=<ES>219:14 - 219:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:224:39: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>224:39 - 224:59<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:225:14: macro expansion=RIGHT_SENSOR_ADDRESS|D:\K1533\RobotCarRepo\RobotCar\Main.c:11:9 <US>c:macro@RIGHT_SENSOR_ADDRESS<UE> <DS>RIGHT_SENSOR_ADDRESS<DE> Extent=<ES>225:14 - 225:34<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:233:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>233:1 - 233:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:238:13: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>238:13 - 238:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:240:29: macro expansion=CPUOFF|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\msp430g2553.h:85:9 <US>c:macro@CPUOFF<UE> <DS>CPUOFF<DE> Extent=<ES>240:29 - 240:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:252:10: macro expansion=STATE_STANDBY|D:\K1533\RobotCarRepo\RobotCar\Main.c:19:9 <US>c:macro@STATE_STANDBY<UE> <DS>STATE_STANDBY<DE> Extent=<ES>252:10 - 252:23<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:255:10: macro expansion=STATE_DRIVE_FORWARD|D:\K1533\RobotCarRepo\RobotCar\Main.c:20:9 <US>c:macro@STATE_DRIVE_FORWARD<UE> <DS>STATE_DRIVE_FORWARD<DE> Extent=<ES>255:10 - 255:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:258:10: macro expansion=STATE_TURN_LEFT|D:\K1533\RobotCarRepo\RobotCar\Main.c:21:9 <US>c:macro@STATE_TURN_LEFT<UE> <DS>STATE_TURN_LEFT<DE> Extent=<ES>258:10 - 258:25<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:261:10: macro expansion=STATE_TURN_RIGHT|D:\K1533\RobotCarRepo\RobotCar\Main.c:22:9 <US>c:macro@STATE_TURN_RIGHT<UE> <DS>STATE_TURN_RIGHT<DE> Extent=<ES>261:10 - 261:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:264:10: macro expansion=STATE_COMPLETE_LAP|D:\K1533\RobotCarRepo\RobotCar\Main.c:23:9 <US>c:macro@STATE_COMPLETE_LAP<UE> <DS>STATE_COMPLETE_LAP<DE> Extent=<ES>264:10 - 264:28<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:267:10: macro expansion=STATE_STOPPED|D:\K1533\RobotCarRepo\RobotCar\Main.c:24:9 <US>c:macro@STATE_STOPPED<UE> <DS>STATE_STOPPED<DE> Extent=<ES>267:10 - 267:23<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -1863,236 +1863,235 @@
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:203:32: FunctionDecl=getchar|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:203:32 (Declaration) <US>c:@F@getchar<UE> <DS>int getchar(void)<DE> Extent=<ES>203:28 - 203:45<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:204:32: FunctionDecl=putchar|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:204:32 (Declaration) <US>c:@F@putchar<UE> <DS>int putchar(int)<DE> Extent=<ES>204:28 - 204:44<EE>
 <L>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:204:43: ParmDecl=|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\dlib\c\stdio.h:204:43 (Definition) <US><UE> <DS>int<DE> Extent=<ES>204:40 - 204:44<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5: VarDecl=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Definition) <US>c:@State<UE> <DS>State<DE> Extent=<ES>32:1 - 32:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:32:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>32:13 - 32:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:33:5: VarDecl=LastState|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:5 (Definition) <US>c:@LastState<UE> <DS>LastState<DE> Extent=<ES>33:1 - 33:36<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:33:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>33:17 - 33:36<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:34:5: VarDecl=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:34:5 (Definition) <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>34:1 - 34:13<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:34:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>34:12 - 34:13<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:36:6: FunctionDecl=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:36:6 (Definition) <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>36:1 - 39:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:37:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>37:1 - 39:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6: FunctionDecl=StartLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6 (Definition) <US>c:@F@StartLeftMotor<UE> <DS>void StartLeftMotor(void)<DE> Extent=<ES>41:1 - 44:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:42:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>42:1 - 44:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6: FunctionDecl=StartRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6 (Definition) <US>c:@F@StartRightMotor<UE> <DS>void StartRightMotor(void)<DE> Extent=<ES>46:1 - 49:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:47:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>47:1 - 49:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6: FunctionDecl=StopLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6 (Definition) <US>c:@F@StopLeftMotor<UE> <DS>void StopLeftMotor(void)<DE> Extent=<ES>51:1 - 55:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:52:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>52:1 - 55:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6: FunctionDecl=StopRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6 (Definition) <US>c:@F@StopRightMotor<UE> <DS>void StopRightMotor(void)<DE> Extent=<ES>57:1 - 60:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:58:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>58:1 - 60:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:62:6: FunctionDecl=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:62:6 (Definition) <US>c:@F@ReadLeftSensor<UE> <DS>bool ReadLeftSensor(void)<DE> Extent=<ES>62:1 - 65:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:63:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>63:1 - 65:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:67:6: FunctionDecl=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:67:6 (Definition) <US>c:@F@ReadMiddleSensor<UE> <DS>bool ReadMiddleSensor(void)<DE> Extent=<ES>67:1 - 70:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:68:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>68:1 - 70:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:72:6: FunctionDecl=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:72:6 (Definition) <US>c:@F@ReadRightSensor<UE> <DS>bool ReadRightSensor(void)<DE> Extent=<ES>72:1 - 75:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:73:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>73:1 - 75:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6: FunctionDecl=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 (Definition) <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>77:1 - 105:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:78:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>78:1 - 105:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:79:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>79:3 - 79:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:79:3: DeclRefExpr=LastState|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:5 (Reference) <US>c:@LastState<UE> <DS>LastState<DE> Extent=<ES>79:3 - 79:12<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:79:15: UnexposedExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 <US>c:@State<UE> <DS>State<DE> Extent=<ES>79:15 - 79:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:79:15: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>79:15 - 79:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>81:3 - 81:55<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:8: VarDecl=middleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:81:8 (Definition) <US>c:Main.c@1390@F@ReadSensors@middleSensorDetectsBlack<UE> <DS>middleSensorDetectsBlack<DE> Extent=<ES>81:3 - 81:54<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:35: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>81:35 - 81:54<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:35: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>81:35 - 81:54<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:36: CallExpr=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:67:6 <US>c:@F@ReadMiddleSensor<UE> <DS>bool ReadMiddleSensor(void)<DE> Extent=<ES>81:36 - 81:54<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:36: UnexposedExpr=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:67:6 <US>c:@F@ReadMiddleSensor<UE> <DS>bool ReadMiddleSensor(void)<DE> Extent=<ES>81:36 - 81:52<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:81:36: DeclRefExpr=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:67:6 (Reference) <US>c:@F@ReadMiddleSensor<UE> <DS>bool ReadMiddleSensor(void)<DE> Extent=<ES>81:36 - 81:52<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>82:3 - 82:51<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:8: VarDecl=leftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:82:8 (Definition) <US>c:Main.c@1446@F@ReadSensors@leftSensorDetectsBlack<UE> <DS>leftSensorDetectsBlack<DE> Extent=<ES>82:3 - 82:50<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:33: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>82:33 - 82:50<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:33: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>82:33 - 82:50<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:34: CallExpr=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:62:6 <US>c:@F@ReadLeftSensor<UE> <DS>bool ReadLeftSensor(void)<DE> Extent=<ES>82:34 - 82:50<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:34: UnexposedExpr=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:62:6 <US>c:@F@ReadLeftSensor<UE> <DS>bool ReadLeftSensor(void)<DE> Extent=<ES>82:34 - 82:48<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:82:34: DeclRefExpr=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:62:6 (Reference) <US>c:@F@ReadLeftSensor<UE> <DS>bool ReadLeftSensor(void)<DE> Extent=<ES>82:34 - 82:48<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>83:3 - 83:53<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:8: VarDecl=rightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:83:8 (Definition) <US>c:Main.c@1498@F@ReadSensors@rightSensorDetectsBlack<UE> <DS>rightSensorDetectsBlack<DE> Extent=<ES>83:3 - 83:52<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:34: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>83:34 - 83:52<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:34: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>83:34 - 83:52<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:35: CallExpr=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:72:6 <US>c:@F@ReadRightSensor<UE> <DS>bool ReadRightSensor(void)<DE> Extent=<ES>83:35 - 83:52<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:35: UnexposedExpr=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:72:6 <US>c:@F@ReadRightSensor<UE> <DS>bool ReadRightSensor(void)<DE> Extent=<ES>83:35 - 83:50<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:83:35: DeclRefExpr=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:72:6 (Reference) <US>c:@F@ReadRightSensor<UE> <DS>bool ReadRightSensor(void)<DE> Extent=<ES>83:35 - 83:50<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:85:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>85:3 - 104:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:86:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>86:7 - 88:33<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:86:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>86:7 - 87:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:86:7: UnexposedExpr=middleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:81:8 <US>c:Main.c@1390@F@ReadSensors@middleSensorDetectsBlack<UE> <DS>middleSensorDetectsBlack<DE> Extent=<ES>86:7 - 86:31<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:86:7: UnexposedExpr=middleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:81:8 <US>c:Main.c@1390@F@ReadSensors@middleSensorDetectsBlack<UE> <DS>middleSensorDetectsBlack<DE> Extent=<ES>86:7 - 86:31<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:86:7: DeclRefExpr=middleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:81:8 (Reference) <US>c:Main.c@1390@F@ReadSensors@middleSensorDetectsBlack<UE> <DS>middleSensorDetectsBlack<DE> Extent=<ES>86:7 - 86:31<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:87:10: UnexposedExpr=leftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:82:8 <US>c:Main.c@1446@F@ReadSensors@leftSensorDetectsBlack<UE> <DS>leftSensorDetectsBlack<DE> Extent=<ES>87:10 - 87:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:87:10: UnexposedExpr=leftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:82:8 <US>c:Main.c@1446@F@ReadSensors@leftSensorDetectsBlack<UE> <DS>leftSensorDetectsBlack<DE> Extent=<ES>87:10 - 87:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:87:10: DeclRefExpr=leftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:82:8 (Reference) <US>c:Main.c@1446@F@ReadSensors@leftSensorDetectsBlack<UE> <DS>leftSensorDetectsBlack<DE> Extent=<ES>87:10 - 87:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:88:10: UnexposedExpr=rightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:83:8 <US>c:Main.c@1498@F@ReadSensors@rightSensorDetectsBlack<UE> <DS>rightSensorDetectsBlack<DE> Extent=<ES>88:10 - 88:33<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:88:10: UnexposedExpr=rightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:83:8 <US>c:Main.c@1498@F@ReadSensors@rightSensorDetectsBlack<UE> <DS>rightSensorDetectsBlack<DE> Extent=<ES>88:10 - 88:33<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:88:10: DeclRefExpr=rightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:83:8 (Reference) <US>c:Main.c@1498@F@ReadSensors@rightSensorDetectsBlack<UE> <DS>rightSensorDetectsBlack<DE> Extent=<ES>88:10 - 88:33<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:90:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>90:3 - 92:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:91:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>91:5 - 91:31<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:91:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>91:5 - 91:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:91:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>91:13 - 91:31<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:93:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>93:8 - 104:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:93:12: UnexposedExpr=middleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:81:8 <US>c:Main.c@1390@F@ReadSensors@middleSensorDetectsBlack<UE> <DS>middleSensorDetectsBlack<DE> Extent=<ES>93:12 - 93:36<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:93:12: DeclRefExpr=middleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:81:8 (Reference) <US>c:Main.c@1390@F@ReadSensors@middleSensorDetectsBlack<UE> <DS>middleSensorDetectsBlack<DE> Extent=<ES>93:12 - 93:36<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:94:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>94:3 - 96:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:95:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>95:5 - 95:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:95:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>95:5 - 95:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:95:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:13 - 95:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:97:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>97:8 - 104:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:97:12: UnexposedExpr=leftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:82:8 <US>c:Main.c@1446@F@ReadSensors@leftSensorDetectsBlack<UE> <DS>leftSensorDetectsBlack<DE> Extent=<ES>97:12 - 97:34<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:97:12: DeclRefExpr=leftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:82:8 (Reference) <US>c:Main.c@1446@F@ReadSensors@leftSensorDetectsBlack<UE> <DS>leftSensorDetectsBlack<DE> Extent=<ES>97:12 - 97:34<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:98:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>98:3 - 100:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:99:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>99:5 - 99:28<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:99:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>99:5 - 99:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:99:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>99:13 - 99:28<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:101:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>101:8 - 104:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:101:12: UnexposedExpr=rightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:83:8 <US>c:Main.c@1498@F@ReadSensors@rightSensorDetectsBlack<UE> <DS>rightSensorDetectsBlack<DE> Extent=<ES>101:12 - 101:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:101:12: DeclRefExpr=rightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:83:8 (Reference) <US>c:Main.c@1498@F@ReadSensors@rightSensorDetectsBlack<UE> <DS>rightSensorDetectsBlack<DE> Extent=<ES>101:12 - 101:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:102:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>102:3 - 104:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:103:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>103:5 - 103:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:103:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>103:5 - 103:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:103:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>103:13 - 103:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:107:6: FunctionDecl=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:107:6 (Definition) <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>107:1 - 111:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:108:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>108:1 - 111:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6: FunctionDecl=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6 (Definition) <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>113:1 - 119:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:114:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>114:1 - 119:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:115:3: CallExpr=StartLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6 <US>c:@F@StartLeftMotor<UE> <DS>void StartLeftMotor(void)<DE> Extent=<ES>115:3 - 115:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:115:3: UnexposedExpr=StartLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6 <US>c:@F@StartLeftMotor<UE> <DS>void StartLeftMotor(void)<DE> Extent=<ES>115:3 - 115:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:115:3: DeclRefExpr=StartLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6 (Reference) <US>c:@F@StartLeftMotor<UE> <DS>void StartLeftMotor(void)<DE> Extent=<ES>115:3 - 115:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:116:3: CallExpr=StartRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6 <US>c:@F@StartRightMotor<UE> <DS>void StartRightMotor(void)<DE> Extent=<ES>116:3 - 116:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:116:3: UnexposedExpr=StartRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6 <US>c:@F@StartRightMotor<UE> <DS>void StartRightMotor(void)<DE> Extent=<ES>116:3 - 116:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:116:3: DeclRefExpr=StartRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6 (Reference) <US>c:@F@StartRightMotor<UE> <DS>void StartRightMotor(void)<DE> Extent=<ES>116:3 - 116:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:118:3: CallExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>118:3 - 118:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:118:3: UnexposedExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>118:3 - 118:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:118:3: DeclRefExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 (Reference) <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>118:3 - 118:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:121:6: FunctionDecl=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:121:6 (Definition) <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>121:1 - 127:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:122:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>122:1 - 127:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:123:3: CallExpr=StartLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6 <US>c:@F@StartLeftMotor<UE> <DS>void StartLeftMotor(void)<DE> Extent=<ES>123:3 - 123:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:123:3: UnexposedExpr=StartLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6 <US>c:@F@StartLeftMotor<UE> <DS>void StartLeftMotor(void)<DE> Extent=<ES>123:3 - 123:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:123:3: DeclRefExpr=StartLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:41:6 (Reference) <US>c:@F@StartLeftMotor<UE> <DS>void StartLeftMotor(void)<DE> Extent=<ES>123:3 - 123:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:124:3: CallExpr=StopRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6 <US>c:@F@StopRightMotor<UE> <DS>void StopRightMotor(void)<DE> Extent=<ES>124:3 - 124:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:124:3: UnexposedExpr=StopRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6 <US>c:@F@StopRightMotor<UE> <DS>void StopRightMotor(void)<DE> Extent=<ES>124:3 - 124:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:124:3: DeclRefExpr=StopRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6 (Reference) <US>c:@F@StopRightMotor<UE> <DS>void StopRightMotor(void)<DE> Extent=<ES>124:3 - 124:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:126:3: CallExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>126:3 - 126:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:126:3: UnexposedExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>126:3 - 126:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:126:3: DeclRefExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 (Reference) <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>126:3 - 126:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:129:6: FunctionDecl=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:129:6 (Definition) <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>129:1 - 134:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:130:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>130:1 - 134:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:131:3: CallExpr=StopLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6 <US>c:@F@StopLeftMotor<UE> <DS>void StopLeftMotor(void)<DE> Extent=<ES>131:3 - 131:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:131:3: UnexposedExpr=StopLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6 <US>c:@F@StopLeftMotor<UE> <DS>void StopLeftMotor(void)<DE> Extent=<ES>131:3 - 131:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:131:3: DeclRefExpr=StopLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6 (Reference) <US>c:@F@StopLeftMotor<UE> <DS>void StopLeftMotor(void)<DE> Extent=<ES>131:3 - 131:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:132:3: CallExpr=StartRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6 <US>c:@F@StartRightMotor<UE> <DS>void StartRightMotor(void)<DE> Extent=<ES>132:3 - 132:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:132:3: UnexposedExpr=StartRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6 <US>c:@F@StartRightMotor<UE> <DS>void StartRightMotor(void)<DE> Extent=<ES>132:3 - 132:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:132:3: DeclRefExpr=StartRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:46:6 (Reference) <US>c:@F@StartRightMotor<UE> <DS>void StartRightMotor(void)<DE> Extent=<ES>132:3 - 132:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:133:3: CallExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>133:3 - 133:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:133:3: UnexposedExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>133:3 - 133:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:133:3: DeclRefExpr=ReadSensors|D:\K1533\RobotCarRepo\RobotCar\Main.c:77:6 (Reference) <US>c:@F@ReadSensors<UE> <DS>void ReadSensors(void)<DE> Extent=<ES>133:3 - 133:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6: FunctionDecl=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 (Definition) <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>136:1 - 140:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:137:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>137:1 - 140:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:138:3: CallExpr=StopLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6 <US>c:@F@StopLeftMotor<UE> <DS>void StopLeftMotor(void)<DE> Extent=<ES>138:3 - 138:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:138:3: UnexposedExpr=StopLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6 <US>c:@F@StopLeftMotor<UE> <DS>void StopLeftMotor(void)<DE> Extent=<ES>138:3 - 138:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:138:3: DeclRefExpr=StopLeftMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:51:6 (Reference) <US>c:@F@StopLeftMotor<UE> <DS>void StopLeftMotor(void)<DE> Extent=<ES>138:3 - 138:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:139:3: CallExpr=StopRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6 <US>c:@F@StopRightMotor<UE> <DS>void StopRightMotor(void)<DE> Extent=<ES>139:3 - 139:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:139:3: UnexposedExpr=StopRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6 <US>c:@F@StopRightMotor<UE> <DS>void StopRightMotor(void)<DE> Extent=<ES>139:3 - 139:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:139:3: DeclRefExpr=StopRightMotor|D:\K1533\RobotCarRepo\RobotCar\Main.c:57:6 (Reference) <US>c:@F@StopRightMotor<UE> <DS>void StopRightMotor(void)<DE> Extent=<ES>139:3 - 139:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:142:6: FunctionDecl=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:142:6 (Definition) <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>142:1 - 159:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:143:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>143:1 - 159:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:144:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>144:3 - 148:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:144:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>144:7 - 144:38<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:144:7: UnexposedExpr=LastState|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:5 <US>c:@LastState<UE> <DS>LastState<DE> Extent=<ES>144:7 - 144:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:144:7: DeclRefExpr=LastState|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:5 (Reference) <US>c:@LastState<UE> <DS>LastState<DE> Extent=<ES>144:7 - 144:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:144:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>144:20 - 144:38<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:145:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>145:3 - 148:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:146:5: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>146:5 - 146:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:146:5: DeclRefExpr=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:34:5 (Reference) <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>146:5 - 146:9<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:150:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>150:3 - 158:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:150:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>150:7 - 150:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:150:7: UnexposedExpr=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:34:5 <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>150:7 - 150:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:150:7: DeclRefExpr=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:34:5 (Reference) <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>150:7 - 150:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:150:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>150:15 - 150:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:151:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>151:3 - 154:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:152:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>152:5 - 152:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:152:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>152:5 - 152:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:152:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>152:13 - 152:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:153:5: CallExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>153:5 - 153:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:153:5: UnexposedExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>153:5 - 153:9<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:153:5: DeclRefExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 (Reference) <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>153:5 - 153:9<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:156:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>156:3 - 158:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:157:5: CallExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6 <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>157:5 - 157:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:157:5: UnexposedExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6 <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>157:5 - 157:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:157:5: DeclRefExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6 (Reference) <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>157:5 - 157:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:161:6: FunctionDecl=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:161:6 (Definition) <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>161:1 - 183:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:162:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>162:1 - 183:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:180:3: CallExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>180:3 - 180:23<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:180:3: UnexposedExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>180:3 - 180:21<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:180:3: DeclRefExpr=__enable_interrupt|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>180:3 - 180:21<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:182:3: CallExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>182:3 - 182:9<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:182:3: UnexposedExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>182:3 - 182:7<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:182:3: DeclRefExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 (Reference) <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>182:3 - 182:7<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:187:18: FunctionDecl=ADC10_ISR|D:\K1533\RobotCarRepo\RobotCar\Main.c:187:18 (Definition) <US>c:@F@ADC10_ISR<UE> <DS>void ADC10_ISR(void)<DE> Extent=<ES>187:13 - 195:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:188:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>188:1 - 195:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:189:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>189:3 - 189:23<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:189:7: VarDecl=temp|D:\K1533\RobotCarRepo\RobotCar\Main.c:189:7 (Definition) <US>c:Main.c@3468@F@ADC10_ISR@temp<UE> <DS>temp<DE> Extent=<ES>189:3 - 189:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:190:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>190:3 - 193:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:190:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:6 - 190:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:190:6: UnexposedExpr=temp|D:\K1533\RobotCarRepo\RobotCar\Main.c:189:7 <US>c:Main.c@3468@F@ADC10_ISR@temp<UE> <DS>temp<DE> Extent=<ES>190:6 - 190:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:190:6: DeclRefExpr=temp|D:\K1533\RobotCarRepo\RobotCar\Main.c:189:7 (Reference) <US>c:Main.c@3468@F@ADC10_ISR@temp<UE> <DS>temp<DE> Extent=<ES>190:6 - 190:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:190:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:13 - 190:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:191:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>191:3 - 193:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:192:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>192:5 - 192:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:192:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>192:5 - 192:10<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:192:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>192:13 - 192:32<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:194:3: CallExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>194:3 - 194:36<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:194:3: UnexposedExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>194:3 - 194:28<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:194:3: DeclRefExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:54:30 (Reference) <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>194:3 - 194:28<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:194:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>194:29 - 194:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:194:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:29 - 194:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:194:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:29 - 194:35<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:197:1: FunctionDecl=main|D:\K1533\RobotCarRepo\RobotCar\Main.c:197:1 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>197:1 - 227:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:198:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>198:1 - 227:2<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:199:3: CallExpr=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:36:6 <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>199:3 - 199:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:199:3: UnexposedExpr=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:36:6 <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>199:3 - 199:15<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:199:3: DeclRefExpr=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:36:6 (Reference) <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>199:3 - 199:15<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:200:3: CallExpr=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:161:6 <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>200:3 - 200:15<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:200:3: UnexposedExpr=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:161:6 <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>200:3 - 200:13<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:200:3: DeclRefExpr=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:161:6 (Reference) <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>200:3 - 200:13<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:202:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>202:3 - 226:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:202:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>202:10 - 202:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:203:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>203:3 - 226:4<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:204:5: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>204:5 - 224:6<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:204:13: UnexposedExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 <US>c:@State<UE> <DS>State<DE> Extent=<ES>204:13 - 204:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:204:13: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:32:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>204:13 - 204:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:205:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>205:5 - 224:6<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:206:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>206:5 - 207:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:206:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>206:10 - 206:23<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:207:7: CallExpr=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:107:6 <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>207:7 - 207:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:207:7: UnexposedExpr=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:107:6 <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>207:7 - 207:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:207:7: DeclRefExpr=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:107:6 (Reference) <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>207:7 - 207:14<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:208:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>208:7 - 208:12<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:209:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>209:5 - 210:21<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:209:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>209:10 - 209:29<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:210:7: CallExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6 <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>210:7 - 210:21<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:210:7: UnexposedExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6 <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>210:7 - 210:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:210:7: DeclRefExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:113:6 (Reference) <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>210:7 - 210:19<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:211:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>211:7 - 211:12<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:212:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>212:5 - 213:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:212:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>212:10 - 212:25<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:213:7: CallExpr=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:129:6 <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>213:7 - 213:17<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:213:7: UnexposedExpr=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:129:6 <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>213:7 - 213:15<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:213:7: DeclRefExpr=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:129:6 (Reference) <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>213:7 - 213:15<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:214:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>214:7 - 214:12<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:215:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>215:5 - 216:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:215:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>215:10 - 215:26<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:216:7: CallExpr=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:121:6 <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>216:7 - 216:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:216:7: UnexposedExpr=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:121:6 <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>216:7 - 216:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:216:7: DeclRefExpr=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:121:6 (Reference) <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>216:7 - 216:16<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:217:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>217:7 - 217:12<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:218:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>218:5 - 219:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:218:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>218:10 - 218:28<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:219:7: CallExpr=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:142:6 <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>219:7 - 219:20<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:219:7: UnexposedExpr=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:142:6 <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>219:7 - 219:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:219:7: DeclRefExpr=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:142:6 (Reference) <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>219:7 - 219:18<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:220:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>220:7 - 220:12<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:221:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>221:5 - 222:13<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:221:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>221:10 - 221:23<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:222:7: CallExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>222:7 - 222:13<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:222:7: UnexposedExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>222:7 - 222:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:222:7: DeclRefExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:136:6 (Reference) <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>222:7 - 222:11<EE>
-<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:223:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>223:7 - 223:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5: VarDecl=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Definition) <US>c:@State<UE> <DS>State<DE> Extent=<ES>26:1 - 26:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:26:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>26:13 - 26:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:27:5: VarDecl=LastState|D:\K1533\RobotCarRepo\RobotCar\Main.c:27:5 (Definition) <US>c:@LastState<UE> <DS>LastState<DE> Extent=<ES>27:1 - 27:36<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:27:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>27:17 - 27:36<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:28:5: VarDecl=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:28:5 (Definition) <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>28:1 - 28:13<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:28:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>28:12 - 28:13<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5: VarDecl=MiddleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5 (Definition) <US>c:@MiddleSensorDetectsBlack<UE> <DS>MiddleSensorDetectsBlack<DE> Extent=<ES>29:1 - 29:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:29:32: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>29:32 - 29:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:30:5: VarDecl=LeftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:30:5 (Definition) <US>c:@LeftSensorDetectsBlack<UE> <DS>LeftSensorDetectsBlack<DE> Extent=<ES>30:1 - 30:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:30:30: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>30:30 - 30:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5: VarDecl=RightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5 (Definition) <US>c:@RightSensorDetectsBlack<UE> <DS>RightSensorDetectsBlack<DE> Extent=<ES>31:1 - 31:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:31:31: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>31:31 - 31:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:33:6: FunctionDecl=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:6 (Definition) <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>33:1 - 36:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:34:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>34:1 - 36:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6: FunctionDecl=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 (Definition) <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>38:1 - 41:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:38:28: ParmDecl=speed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:28 (Definition) <US>c:Main.c@913@F@SetLeftMotorSpeed@speed<UE> <DS>int<DE> Extent=<ES>38:24 - 38:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:39:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>39:1 - 41:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6: FunctionDecl=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 (Definition) <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>43:1 - 46:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:43:29: ParmDecl=speed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:29 (Definition) <US>c:Main.c@977@F@SetRightMotorSpeed@speed<UE> <DS>int<DE> Extent=<ES>43:25 - 43:34<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:44:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>44:1 - 46:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:48:5: FunctionDecl=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:48:5 (Definition) <US>c:@F@ReadLeftSensor<UE> <DS>int ReadLeftSensor(void)<DE> Extent=<ES>48:1 - 52:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:49:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>49:1 - 52:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:54:5: FunctionDecl=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:54:5 (Definition) <US>c:@F@ReadMiddleSensor<UE> <DS>int ReadMiddleSensor(void)<DE> Extent=<ES>54:1 - 58:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:55:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>55:1 - 58:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:60:5: FunctionDecl=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:60:5 (Definition) <US>c:@F@ReadRightSensor<UE> <DS>int ReadRightSensor(void)<DE> Extent=<ES>60:1 - 64:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:61:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>61:1 - 64:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:92:6: FunctionDecl=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:92:6 (Definition) <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>92:1 - 96:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:93:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>93:1 - 96:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:98:6: FunctionDecl=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:98:6 (Definition) <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>98:1 - 120:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:99:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>99:1 - 120:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:100:3: CallExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>100:3 - 100:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:100:3: UnexposedExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>100:3 - 100:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:100:3: DeclRefExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 (Reference) <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>100:3 - 100:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:100:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:21 - 100:25<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:101:3: CallExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>101:3 - 101:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:101:3: UnexposedExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>101:3 - 101:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:101:3: DeclRefExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 (Reference) <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>101:3 - 101:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:101:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>101:22 - 101:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:104:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>104:3 - 119:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:104:7: UnexposedExpr=LeftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:30:5 <US>c:@LeftSensorDetectsBlack<UE> <DS>LeftSensorDetectsBlack<DE> Extent=<ES>104:7 - 104:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:104:7: DeclRefExpr=LeftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:30:5 (Reference) <US>c:@LeftSensorDetectsBlack<UE> <DS>LeftSensorDetectsBlack<DE> Extent=<ES>104:7 - 104:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:105:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>105:3 - 115:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:106:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>106:5 - 114:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:106:9: UnexposedExpr=RightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5 <US>c:@RightSensorDetectsBlack<UE> <DS>RightSensorDetectsBlack<DE> Extent=<ES>106:9 - 106:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:106:9: DeclRefExpr=RightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5 (Reference) <US>c:@RightSensorDetectsBlack<UE> <DS>RightSensorDetectsBlack<DE> Extent=<ES>106:9 - 106:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:107:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>107:5 - 110:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:108:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>108:7 - 108:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:108:7: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>108:7 - 108:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:108:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>108:15 - 108:33<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:109:7: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>109:7 - 109:13<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:109:7: DeclRefExpr=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:28:5 (Reference) <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>109:7 - 109:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:112:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>112:5 - 114:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:113:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>113:7 - 113:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:113:7: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>113:7 - 113:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:113:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>113:15 - 113:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:116:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>116:8 - 119:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:116:12: UnexposedExpr=RightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5 <US>c:@RightSensorDetectsBlack<UE> <DS>RightSensorDetectsBlack<DE> Extent=<ES>116:12 - 116:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:116:12: DeclRefExpr=RightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5 (Reference) <US>c:@RightSensorDetectsBlack<UE> <DS>RightSensorDetectsBlack<DE> Extent=<ES>116:12 - 116:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:117:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>117:3 - 119:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:118:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>118:5 - 118:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:118:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>118:5 - 118:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:118:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>118:13 - 118:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:122:6: FunctionDecl=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:122:6 (Definition) <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>122:1 - 132:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:123:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>123:1 - 132:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:124:3: CallExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>124:3 - 124:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:124:3: UnexposedExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>124:3 - 124:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:124:3: DeclRefExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 (Reference) <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>124:3 - 124:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:124:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>124:21 - 124:25<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:125:3: CallExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>125:3 - 125:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:125:3: UnexposedExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>125:3 - 125:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:125:3: DeclRefExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 (Reference) <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>125:3 - 125:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:125:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>125:22 - 125:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:128:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>128:3 - 131:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:128:7: UnexposedExpr=MiddleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5 <US>c:@MiddleSensorDetectsBlack<UE> <DS>MiddleSensorDetectsBlack<DE> Extent=<ES>128:7 - 128:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:128:7: DeclRefExpr=MiddleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5 (Reference) <US>c:@MiddleSensorDetectsBlack<UE> <DS>MiddleSensorDetectsBlack<DE> Extent=<ES>128:7 - 128:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:129:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>129:3 - 131:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:130:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>130:5 - 130:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:130:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>130:5 - 130:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:130:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>130:13 - 130:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:134:6: FunctionDecl=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:134:6 (Definition) <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>134:1 - 144:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:135:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>135:1 - 144:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:136:3: CallExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>136:3 - 136:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:136:3: UnexposedExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>136:3 - 136:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:136:3: DeclRefExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 (Reference) <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>136:3 - 136:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:136:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>136:21 - 136:25<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:137:3: CallExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>137:3 - 137:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:137:3: UnexposedExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>137:3 - 137:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:137:3: DeclRefExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 (Reference) <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>137:3 - 137:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:137:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>137:22 - 137:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:140:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>140:3 - 143:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:140:7: UnexposedExpr=MiddleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5 <US>c:@MiddleSensorDetectsBlack<UE> <DS>MiddleSensorDetectsBlack<DE> Extent=<ES>140:7 - 140:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:140:7: DeclRefExpr=MiddleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5 (Reference) <US>c:@MiddleSensorDetectsBlack<UE> <DS>MiddleSensorDetectsBlack<DE> Extent=<ES>140:7 - 140:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:141:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>141:3 - 143:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:142:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>142:5 - 142:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:142:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>142:5 - 142:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:142:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>142:13 - 142:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:146:6: FunctionDecl=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:146:6 (Definition) <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>146:1 - 150:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:147:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>147:1 - 150:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:148:3: CallExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>148:3 - 148:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:148:3: UnexposedExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>148:3 - 148:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:148:3: DeclRefExpr=SetLeftMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:38:6 (Reference) <US>c:@F@SetLeftMotorSpeed<UE> <DS>void SetLeftMotorSpeed(int)<DE> Extent=<ES>148:3 - 148:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:148:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>148:21 - 148:25<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:149:3: CallExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>149:3 - 149:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:149:3: UnexposedExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>149:3 - 149:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:149:3: DeclRefExpr=SetRightMotorSpeed|D:\K1533\RobotCarRepo\RobotCar\Main.c:43:6 (Reference) <US>c:@F@SetRightMotorSpeed<UE> <DS>void SetRightMotorSpeed(int)<DE> Extent=<ES>149:3 - 149:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:149:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>149:22 - 149:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:152:6: FunctionDecl=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:152:6 (Definition) <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>152:1 - 170:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:153:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>153:1 - 170:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:154:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>154:3 - 157:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:154:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>154:7 - 154:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:154:7: UnexposedExpr=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:28:5 <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>154:7 - 154:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:154:7: DeclRefExpr=Laps|D:\K1533\RobotCarRepo\RobotCar\Main.c:28:5 (Reference) <US>c:@Laps<UE> <DS>Laps<DE> Extent=<ES>154:7 - 154:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:154:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>154:15 - 154:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:155:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>155:3 - 157:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:156:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>156:5 - 156:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:156:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>156:5 - 156:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:156:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>156:13 - 156:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:159:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>159:3 - 169:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:159:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>159:7 - 159:36<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:159:7: UnexposedExpr=MiddleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5 <US>c:@MiddleSensorDetectsBlack<UE> <DS>MiddleSensorDetectsBlack<DE> Extent=<ES>159:7 - 159:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:159:7: DeclRefExpr=MiddleSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:29:5 (Reference) <US>c:@MiddleSensorDetectsBlack<UE> <DS>MiddleSensorDetectsBlack<DE> Extent=<ES>159:7 - 159:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:159:35: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>159:35 - 159:36<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:160:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>160:3 - 169:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:161:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>161:5 - 168:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:161:9: UnexposedExpr=LeftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:30:5 <US>c:@LeftSensorDetectsBlack<UE> <DS>LeftSensorDetectsBlack<DE> Extent=<ES>161:9 - 161:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:161:9: DeclRefExpr=LeftSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:30:5 (Reference) <US>c:@LeftSensorDetectsBlack<UE> <DS>LeftSensorDetectsBlack<DE> Extent=<ES>161:9 - 161:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:162:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>162:5 - 164:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:163:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>163:7 - 163:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:163:7: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>163:7 - 163:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:163:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>163:15 - 163:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:165:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>165:10 - 168:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:165:14: UnexposedExpr=RightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5 <US>c:@RightSensorDetectsBlack<UE> <DS>RightSensorDetectsBlack<DE> Extent=<ES>165:14 - 165:37<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:165:14: DeclRefExpr=RightSensorDetectsBlack|D:\K1533\RobotCarRepo\RobotCar\Main.c:31:5 (Reference) <US>c:@RightSensorDetectsBlack<UE> <DS>RightSensorDetectsBlack<DE> Extent=<ES>165:14 - 165:37<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:166:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>166:5 - 168:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:167:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>167:7 - 167:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:167:7: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>167:7 - 167:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:167:15: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>167:15 - 167:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:172:6: FunctionDecl=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:172:6 (Definition) <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>172:1 - 204:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:173:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>173:1 - 204:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:183:3: CallExpr=_BIS_SR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:52:30 <US>c:@F@_BIS_SR<UE> <DS>unsigned short _BIS_SR(unsigned short)<DE> Extent=<ES>183:3 - 183:31<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:183:3: UnexposedExpr=_BIS_SR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:52:30 <US>c:@F@_BIS_SR<UE> <DS>unsigned short _BIS_SR(unsigned short)<DE> Extent=<ES>183:3 - 183:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:183:3: DeclRefExpr=_BIS_SR|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\in430.h:52:30 (Reference) <US>c:@F@_BIS_SR<UE> <DS>unsigned short _BIS_SR(unsigned short)<DE> Extent=<ES>183:3 - 183:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:183:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>183:27 - 183:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:183:27: ParenExpr= <US><UE> <DS><DE> Extent=<ES>183:27 - 183:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:183:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>183:27 - 183:30<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:207:18: FunctionDecl=Port_1|D:\K1533\RobotCarRepo\RobotCar\Main.c:207:18 (Definition) <US>c:@F@Port_1<UE> <DS>void Port_1(void)<DE> Extent=<ES>207:13 - 229:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:208:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>208:1 - 229:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:209:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>209:3 - 226:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:209:7: CallExpr=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:54:5 <US>c:@F@ReadMiddleSensor<UE> <DS>int ReadMiddleSensor(void)<DE> Extent=<ES>209:7 - 209:25<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:209:7: UnexposedExpr=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:54:5 <US>c:@F@ReadMiddleSensor<UE> <DS>int ReadMiddleSensor(void)<DE> Extent=<ES>209:7 - 209:23<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:209:7: DeclRefExpr=ReadMiddleSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:54:5 (Reference) <US>c:@F@ReadMiddleSensor<UE> <DS>int ReadMiddleSensor(void)<DE> Extent=<ES>209:7 - 209:23<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:210:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>210:3 - 214:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:215:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>215:8 - 226:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:215:12: CallExpr=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:48:5 <US>c:@F@ReadLeftSensor<UE> <DS>int ReadLeftSensor(void)<DE> Extent=<ES>215:12 - 215:28<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:215:12: UnexposedExpr=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:48:5 <US>c:@F@ReadLeftSensor<UE> <DS>int ReadLeftSensor(void)<DE> Extent=<ES>215:12 - 215:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:215:12: DeclRefExpr=ReadLeftSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:48:5 (Reference) <US>c:@F@ReadLeftSensor<UE> <DS>int ReadLeftSensor(void)<DE> Extent=<ES>215:12 - 215:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:216:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>216:3 - 220:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:221:8: IfStmt= <US><UE> <DS><DE> Extent=<ES>221:8 - 226:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:221:12: CallExpr=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:60:5 <US>c:@F@ReadRightSensor<UE> <DS>int ReadRightSensor(void)<DE> Extent=<ES>221:12 - 221:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:221:12: UnexposedExpr=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:60:5 <US>c:@F@ReadRightSensor<UE> <DS>int ReadRightSensor(void)<DE> Extent=<ES>221:12 - 221:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:221:12: DeclRefExpr=ReadRightSensor|D:\K1533\RobotCarRepo\RobotCar\Main.c:60:5 (Reference) <US>c:@F@ReadRightSensor<UE> <DS>int ReadRightSensor(void)<DE> Extent=<ES>221:12 - 221:27<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:222:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>222:3 - 226:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:233:18: FunctionDecl=ADC10_ISR|D:\K1533\RobotCarRepo\RobotCar\Main.c:233:18 (Definition) <US>c:@F@ADC10_ISR<UE> <DS>void ADC10_ISR(void)<DE> Extent=<ES>233:13 - 241:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:234:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>234:1 - 241:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:235:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>235:3 - 235:23<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:235:7: VarDecl=temp|D:\K1533\RobotCarRepo\RobotCar\Main.c:235:7 (Definition) <US>c:Main.c@4846@F@ADC10_ISR@temp<UE> <DS>temp<DE> Extent=<ES>235:3 - 235:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:236:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>236:3 - 239:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:236:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>236:6 - 236:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:236:6: UnexposedExpr=temp|D:\K1533\RobotCarRepo\RobotCar\Main.c:235:7 <US>c:Main.c@4846@F@ADC10_ISR@temp<UE> <DS>temp<DE> Extent=<ES>236:6 - 236:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:236:6: DeclRefExpr=temp|D:\K1533\RobotCarRepo\RobotCar\Main.c:235:7 (Reference) <US>c:Main.c@4846@F@ADC10_ISR@temp<UE> <DS>temp<DE> Extent=<ES>236:6 - 236:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:236:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>236:13 - 236:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:237:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>237:3 - 239:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:238:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>238:5 - 238:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:238:5: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>238:5 - 238:10<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:238:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>238:13 - 238:32<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:240:3: CallExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>240:3 - 240:36<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:240:3: UnexposedExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:54:30 <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>240:3 - 240:28<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:240:3: DeclRefExpr=__bic_SR_register_on_exit|C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.4 Kickstart\430\inc\intrinsics.h:54:30 (Reference) <US>c:@F@__bic_SR_register_on_exit<UE> <DS>void __bic_SR_register_on_exit(unsigned short)<DE> Extent=<ES>240:3 - 240:28<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:240:29: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>240:29 - 240:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:240:29: ParenExpr= <US><UE> <DS><DE> Extent=<ES>240:29 - 240:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:240:29: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>240:29 - 240:35<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:243:1: FunctionDecl=main|D:\K1533\RobotCarRepo\RobotCar\Main.c:243:1 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>243:1 - 273:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:244:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>244:1 - 273:2<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:245:3: CallExpr=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:6 <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>245:3 - 245:17<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:245:3: UnexposedExpr=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:6 <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>245:3 - 245:15<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:245:3: DeclRefExpr=StopWatchdog|D:\K1533\RobotCarRepo\RobotCar\Main.c:33:6 (Reference) <US>c:@F@StopWatchdog<UE> <DS>void StopWatchdog(void)<DE> Extent=<ES>245:3 - 245:15<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:246:3: CallExpr=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:172:6 <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>246:3 - 246:15<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:246:3: UnexposedExpr=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:172:6 <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>246:3 - 246:13<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:246:3: DeclRefExpr=Initialize|D:\K1533\RobotCarRepo\RobotCar\Main.c:172:6 (Reference) <US>c:@F@Initialize<UE> <DS>void Initialize(void)<DE> Extent=<ES>246:3 - 246:13<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:248:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>248:3 - 272:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:248:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>248:10 - 248:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:249:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>249:3 - 272:4<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:250:5: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>250:5 - 270:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:250:13: UnexposedExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 <US>c:@State<UE> <DS>State<DE> Extent=<ES>250:13 - 250:18<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:250:13: DeclRefExpr=State|D:\K1533\RobotCarRepo\RobotCar\Main.c:26:5 (Reference) <US>c:@State<UE> <DS>State<DE> Extent=<ES>250:13 - 250:18<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:251:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>251:5 - 270:6<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:252:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>252:5 - 253:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:252:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>252:10 - 252:23<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:253:7: CallExpr=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:92:6 <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>253:7 - 253:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:253:7: UnexposedExpr=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:92:6 <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>253:7 - 253:14<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:253:7: DeclRefExpr=Standby|D:\K1533\RobotCarRepo\RobotCar\Main.c:92:6 (Reference) <US>c:@F@Standby<UE> <DS>void Standby(void)<DE> Extent=<ES>253:7 - 253:14<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:254:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>254:7 - 254:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:255:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>255:5 - 256:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:255:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>255:10 - 255:29<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:256:7: CallExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:98:6 <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>256:7 - 256:21<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:256:7: UnexposedExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:98:6 <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>256:7 - 256:19<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:256:7: DeclRefExpr=DriveForward|D:\K1533\RobotCarRepo\RobotCar\Main.c:98:6 (Reference) <US>c:@F@DriveForward<UE> <DS>void DriveForward(void)<DE> Extent=<ES>256:7 - 256:19<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:257:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>257:7 - 257:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:258:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>258:5 - 259:17<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:258:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>258:10 - 258:25<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:259:7: CallExpr=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:134:6 <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>259:7 - 259:17<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:259:7: UnexposedExpr=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:134:6 <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>259:7 - 259:15<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:259:7: DeclRefExpr=TurnLeft|D:\K1533\RobotCarRepo\RobotCar\Main.c:134:6 (Reference) <US>c:@F@TurnLeft<UE> <DS>void TurnLeft(void)<DE> Extent=<ES>259:7 - 259:15<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:260:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>260:7 - 260:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:261:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>261:5 - 262:18<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:261:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>261:10 - 261:26<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:262:7: CallExpr=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:122:6 <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>262:7 - 262:18<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:262:7: UnexposedExpr=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:122:6 <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>262:7 - 262:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:262:7: DeclRefExpr=TurnRight|D:\K1533\RobotCarRepo\RobotCar\Main.c:122:6 (Reference) <US>c:@F@TurnRight<UE> <DS>void TurnRight(void)<DE> Extent=<ES>262:7 - 262:16<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:263:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>263:7 - 263:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:264:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>264:5 - 265:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:264:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>264:10 - 264:28<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:265:7: CallExpr=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:152:6 <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>265:7 - 265:20<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:265:7: UnexposedExpr=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:152:6 <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>265:7 - 265:18<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:265:7: DeclRefExpr=CompleteLap|D:\K1533\RobotCarRepo\RobotCar\Main.c:152:6 (Reference) <US>c:@F@CompleteLap<UE> <DS>void CompleteLap(void)<DE> Extent=<ES>265:7 - 265:18<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:266:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>266:7 - 266:12<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:267:5: CaseStmt= <US><UE> <DS><DE> Extent=<ES>267:5 - 268:13<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:267:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>267:10 - 267:23<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:268:7: CallExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:146:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>268:7 - 268:13<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:268:7: UnexposedExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:146:6 <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>268:7 - 268:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:268:7: DeclRefExpr=Stop|D:\K1533\RobotCarRepo\RobotCar\Main.c:146:6 (Reference) <US>c:@F@Stop<UE> <DS>void Stop(void)<DE> Extent=<ES>268:7 - 268:11<EE>
+<L>D:\K1533\RobotCarRepo\RobotCar\Main.c:269:7: BreakStmt= <US><UE> <DS><DE> Extent=<ES>269:7 - 269:12<EE>

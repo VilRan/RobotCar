@@ -1,26 +1,20 @@
 #include "msp430g2553.h"
-#include <stdbool.h>
 #include <stdio.h>
 
-// Left Motor Port: 1.2 => Address: 0000 0001
+// Left Motor Port: 1.2 => Address: 0000 0100
 #define LEFT_MOTOR_ADDRESS 0x04
 
-// Right Motor Port: 2.0 => Address: 0000 0100
-#define RIGHT_MOTOR_ADDRESS 0x01
+// Right Motor Port: 2.0 => Address: 0000 0010
+#define RIGHT_MOTOR_ADDRESS 0x02
 
 // Right Sensor Port: 1.3 => Address: 0000 1000
 #define RIGHT_SENSOR_ADDRESS 0x08
-#define RIGHT_SENSOR 1
 
 // Middle Sensor Port: 1.4  => Address: 0001 0000
 #define MIDDLE_SENSOR_ADDRESS 0x10
 
 // Left Sensor Port: 1.5 => Address: 0010 0000
 #define LEFT_SENSOR_ADDRESS 0x20
-#define LEFT_SENSOR 2
-
-#define NO_SENSOR 0
-#define ALL_SENSORS 3
 
 #define STATE_STANDBY 0
 #define STATE_DRIVE_FORWARD 1
@@ -29,81 +23,72 @@
 #define STATE_COMPLETE_LAP 4
 #define STATE_STOPPED 5
 
-int State = STATE_STANDBY;
+int State = STATE_DRIVE_FORWARD;
 int LastState = STATE_DRIVE_FORWARD;
 int Laps = 0;
+int MiddleSensorDetectsBlack = 0;
+int LeftSensorDetectsBlack = 0;
+int RightSensorDetectsBlack = 0;
 
 void StopWatchdog()
 {
   WDTCTL = WDTPW + WDTHOLD;
 }
 
-void StartLeftMotor()
+void SetLeftMotorSpeed(int speed)
 {
-  P1OUT = LEFT_MOTOR_ADDRESS;
+  TA0CCR1 = speed;
 }
 
-void StartRightMotor()
-{
-  P2OUT = RIGHT_MOTOR_ADDRESS;
+void SetRightMotorSpeed(int speed)
+{  
+  TA1CCR1 = speed;
 }
 
-void StopLeftMotor()
+int ReadLeftSensor()
 {
-  P1OUT = 0;
-  P1SEL = 0;
+  //return P1IN & LEFT_SENSOR_ADDRESS;
+  return P1IFG & LEFT_SENSOR_ADDRESS;
 }
 
-void StopRightMotor()
+int ReadMiddleSensor()
 {
-  P2OUT = 0;
+  //return P1IN & MIDDLE_SENSOR_ADDRESS;
+  return P1IFG & MIDDLE_SENSOR_ADDRESS;
 }
 
-bool ReadLeftSensor()
+int ReadRightSensor()
 {
-  return P1IN & LEFT_SENSOR_ADDRESS;
+  //return P1IN & RIGHT_SENSOR_ADDRESS;
+  return P1IFG & RIGHT_SENSOR_ADDRESS;
 }
-
-bool ReadMiddleSensor()
-{
-  return P1IN & MIDDLE_SENSOR_ADDRESS;
-}
-
-bool ReadRightSensor()
-{
-  return P1IN & RIGHT_SENSOR_ADDRESS;
-}
-
+/*
 void ReadSensors()
 {
   LastState = State;
   
-  bool middleSensorDetectsBlack = !ReadMiddleSensor();
-  bool leftSensorDetectsBlack = !ReadLeftSensor();
-  bool rightSensorDetectsBlack = !ReadRightSensor();
-  
   if (
-      middleSensorDetectsBlack 
-      && leftSensorDetectsBlack 
-      && rightSensorDetectsBlack
+      MiddleSensorDetectsBlack 
+      && LeftSensorDetectsBlack 
+      && RightSensorDetectsBlack
   )
   {
     State = STATE_COMPLETE_LAP;
   }
-  else if (middleSensorDetectsBlack)
+  else if (MiddleSensorDetectsBlack)
   {
     State = STATE_DRIVE_FORWARD;
   }
-  else if (leftSensorDetectsBlack)
+  else if (LeftSensorDetectsBlack)
   {
     State = STATE_TURN_LEFT;
   }
-  else if (rightSensorDetectsBlack)
+  else if (RightSensorDetectsBlack)
   {
     State = STATE_TURN_RIGHT;
   }
 }
-
+*/
 void Standby()
 {
   ADC10CTL0 |= ENC + ADC10SC;             // Sampling and conversion start
@@ -112,49 +97,75 @@ void Standby()
 
 void DriveForward()
 {
-  StartLeftMotor();
-  StartRightMotor();
-  P1SEL = 0;
-  ReadSensors();
+  SetLeftMotorSpeed(0xFF);
+  SetRightMotorSpeed(0xFF);
+  //ReadSensors();
+  
+  if (LeftSensorDetectsBlack)
+  {
+    if (RightSensorDetectsBlack)
+    {
+      State = STATE_COMPLETE_LAP;
+      Laps++;
+    }
+    else
+    {
+      State = STATE_TURN_LEFT;
+    }
+  }
+  else if (RightSensorDetectsBlack)
+  {
+    State = STATE_TURN_RIGHT;
+  }
 }
 
 void TurnRight()
 {
-  StartLeftMotor();
-  StopRightMotor();
-  P1SEL = LEFT_MOTOR_ADDRESS;
-  ReadSensors();
+  SetLeftMotorSpeed(0xFF);
+  SetRightMotorSpeed(0x00);
+  //ReadSensors();
+  
+  if (MiddleSensorDetectsBlack)
+  {
+    State = STATE_DRIVE_FORWARD;
+  }
 }
 
 void TurnLeft()
 {
-  StopLeftMotor();
-  StartRightMotor();
-  ReadSensors();
+  SetLeftMotorSpeed(0x00);
+  SetRightMotorSpeed(0xFF);
+  //ReadSensors();
+  
+  if (MiddleSensorDetectsBlack)
+  {
+    State = STATE_DRIVE_FORWARD;
+  }
 }
 
 void Stop()
 {
-  StopLeftMotor();
-  StopRightMotor();
+  SetLeftMotorSpeed(0x00);
+  SetRightMotorSpeed(0x00);
 }
 
 void CompleteLap()
 {
-  if (LastState != STATE_COMPLETE_LAP)
-  {
-    Laps++;
-    //LastSensor = ALL_SENSORS;
-  }
-  
   if (Laps == 3)
   {
     State = STATE_STOPPED;
-    Stop();
   }
-  else
+  
+  if (MiddleSensorDetectsBlack == 0)
   {
-    DriveForward();
+    if (LeftSensorDetectsBlack)
+    {
+      State = STATE_TURN_LEFT;
+    }
+    else if (RightSensorDetectsBlack)
+    {
+      State = STATE_TURN_RIGHT;
+    }
   }
 }
 
@@ -163,23 +174,58 @@ void Initialize()
   P1DIR = LEFT_MOTOR_ADDRESS;
   P2DIR = RIGHT_MOTOR_ADDRESS;
   
+  P1DIR |= 0x01;
+  P1OUT |= RIGHT_SENSOR_ADDRESS + MIDDLE_SENSOR_ADDRESS + LEFT_SENSOR_ADDRESS;
+  P1REN |= RIGHT_SENSOR_ADDRESS + MIDDLE_SENSOR_ADDRESS + LEFT_SENSOR_ADDRESS;
+  //P1IFG = 0x01;
+  P1IES |= RIGHT_SENSOR_ADDRESS + MIDDLE_SENSOR_ADDRESS + LEFT_SENSOR_ADDRESS;
+  P1IE |= RIGHT_SENSOR_ADDRESS + MIDDLE_SENSOR_ADDRESS + LEFT_SENSOR_ADDRESS;
+  _BIS_SR(/*LPM4_bits +*/ GIE);
+  
   TA0CTL = TASSEL_2 + ID_0 + MC_1; // SMCLK, NO DIVIDER, UP_MODE
   TA0CCTL1 = OUTMOD_7; // SET/RESET_MODE
   TA0CCR0 = 0xFF;
-  TA0CCR1 = 0xCC;
+  TA0CCR1 = 0xF0;
   P1SEL = LEFT_MOTOR_ADDRESS;
-  /*
+  
   TA1CTL = TASSEL_2 + ID_0 + MC_1; // SMCLK, NO DIVIDER, UP_MODE
   TA1CCTL1 = OUTMOD_7; // SET/RESET_MODE
   TA1CCR0 = 0xFF;
-  TA1CCR1 = 0xCC;
-  P2SEL2 = RIGHT_MOTOR_ADDRESS;
-  */
+  TA1CCR1 = 0xF0;
+  P2SEL = RIGHT_MOTOR_ADDRESS;
+  
+  /*
   ADC10CTL1 = INCH_10 + ADC10DIV_3; // Temp Sensor ADC10CLK/4
   ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON + ADC10IE;
   __enable_interrupt();
   
   Stop();
+  */
+}
+
+#pragma vector=PORT1_VECTOR
+__interrupt void Port_1(void)
+{
+  if (ReadMiddleSensor())
+  {
+    //State = STATE_DRIVE_FORWARD;
+    MiddleSensorDetectsBlack = P1IES & MIDDLE_SENSOR_ADDRESS;
+    P1IES ^= MIDDLE_SENSOR_ADDRESS;
+  }
+  else if (ReadLeftSensor())
+  {
+    //State = STATE_TURN_LEFT;
+    LeftSensorDetectsBlack = P1IES & LEFT_SENSOR_ADDRESS;
+    P1IES ^= LEFT_SENSOR_ADDRESS;
+  }
+  else if (ReadRightSensor())
+  {
+    //State = STATE_TURN_RIGHT;
+    RightSensorDetectsBlack = P1IES & RIGHT_SENSOR_ADDRESS;
+    P1IES ^= RIGHT_SENSOR_ADDRESS;
+  }
+  
+  P1IFG = 0x00;
 }
 
 // ADC10 interrupt service routine
@@ -199,7 +245,7 @@ main()
   StopWatchdog();
   Initialize();
   
-  while (true)
+  while (1)
   {
     switch (State)
     {
