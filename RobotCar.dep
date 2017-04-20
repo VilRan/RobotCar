@@ -7,57 +7,48 @@
     <name>Debug</name>
     <outputs>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
       <file>$PROJ_DIR$\Main.c</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
-      <file>$PROJ_DIR$\Main.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Main.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\RobotCar.pbd</file>
+      <file>$PROJ_DIR$\Main.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
       <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.r43</file>
       <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\RobotCar.ulp</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\Main.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\RobotCar.d43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\RobotCar.d43</file>
       <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\RobotCar.ulp</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\Main.c</name>
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 6</file>
+          <file> 9</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 15</file>
+          <file> 14</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 10 14 3 18 11 16 0 17 21 4 9 1 13 5</file>
+          <file> 10 19 2 11 17 21 0 18 16 3 8 6 12 5</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 10 14 3 18 11 16 0 17 21 4 9 1 13 5</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\RobotCar.d43</name>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 8 6 20</file>
+          <file> 10 19 2 11 17 21 0 18 16 3 8 6 12 5</file>
         </tool>
       </inputs>
     </file>
@@ -65,14 +56,23 @@
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
-          <name>ULP430</name>
-          <file> 12</file>
+          <name>XLINK</name>
+          <file> 15</file>
         </tool>
         <tool>
-          <name>XLINK</name>
-          <file> 19</file>
+          <name>ULP430</name>
+          <file> 20</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\RobotCar.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 7 9 13</file>
+        </tool>
+      </inputs>
     </file>
   </configuration>
   <configuration>
