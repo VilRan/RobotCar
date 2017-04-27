@@ -7,11 +7,6 @@ main()
   Initialize();
   while (1)
   {
-    if (Time < 0xFFFFFFFF)
-    {
-      Time++;
-    }
-    
     if (SuperState == SUPERSTATE_DRIVE_FROM_MEMORY)
     {
       State = ReadStateFromMemory();
@@ -51,8 +46,8 @@ void Initialize()
 { 
   WDTCTL = WDTPW + WDTHOLD;
   
-  P1DIR = LEFT_MOTOR_ADDRESS;
-  P2DIR = RIGHT_MOTOR_ADDRESS;
+  P1DIR = LEFT_MOTOR_ADDRESS + RIGHT_MOTOR_ADDRESS;
+  P1OUT = 0;
   
   P1DIR |= 0x01;
   P1OUT |= RIGHT_SENSOR_ADDRESS + MIDDLE_SENSOR_ADDRESS + LEFT_SENSOR_ADDRESS;
@@ -67,13 +62,12 @@ void Initialize()
   TA0CCTL1 = OUTMOD_7; // SET/RESET_MODE
   TA0CCR0 = 0xFF;
   TA0CCR1 = 0xF0;
-  P1SEL = LEFT_MOTOR_ADDRESS;
-  
+ 
+  TA1CCTL0 = CCIE;
   TA1CTL = TASSEL_2 + ID_0 + MC_1; // SMCLK, NO DIVIDER, UP_MODE
   TA1CCTL1 = OUTMOD_7; // SET/RESET_MODE
   TA1CCR0 = 0xFF;
   TA1CCR1 = 0xF0;
-  P2SEL = RIGHT_MOTOR_ADDRESS;
   
   ADC10CTL1 = INCH_10 + ADC10DIV_3; // Temp Sensor ADC10CLK/4
   ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON + ADC10IE;
@@ -84,16 +78,19 @@ void Initialize()
 
 void Standby()
 {
-  SetLeftMotorSpeed(0x00);
-  SetRightMotorSpeed(0x00);
+  P1SEL = 0;
+  TA0CCR1 = 0;
+  P1OUT = 0;
+  
   ADC10CTL0 |= ENC + ADC10SC;             // Sampling and conversion start
   //__bis_SR_register(CPUOFF + GIE);        // LPM0 with interrupts enabled
 }
 
 void DriveForward()
 {
-  SetLeftMotorSpeed(0xFF);
-  SetRightMotorSpeed(0xFF);
+  P1SEL = 0;
+  TA0CCR1 = 0;
+  P1OUT = LEFT_MOTOR_ADDRESS + RIGHT_MOTOR_ADDRESS;
   
   if (SuperState == SUPERSTATE_DRIVE_FROM_MEMORY)
   {
@@ -120,8 +117,9 @@ void DriveForward()
 
 void TurnRight()
 {
-  SetLeftMotorSpeed(0xF0);
-  SetRightMotorSpeed(0x00);
+  P1SEL = LEFT_MOTOR_ADDRESS;
+  TA0CCR1 = 0xE0;
+  P1OUT = 0;
   
   if (SuperState == SUPERSTATE_DRIVE_FROM_MEMORY)
   {
@@ -140,8 +138,9 @@ void TurnRight()
 
 void TurnLeft()
 {
-  SetLeftMotorSpeed(0x00);
-  SetRightMotorSpeed(0xF0);
+  P1SEL = 0;
+  TA0CCR1 = 0;
+  P1OUT = RIGHT_MOTOR_ADDRESS;
   
   if (SuperState == SUPERSTATE_DRIVE_FROM_MEMORY)
   {
@@ -159,9 +158,10 @@ void TurnLeft()
 }
 
 void CompleteLap()
-{    
-  SetLeftMotorSpeed(0xFF);
-  SetRightMotorSpeed(0xFF);
+{
+  P1SEL = 0;
+  TA0CCR1 = 0;
+  P1OUT = LEFT_MOTOR_ADDRESS + RIGHT_MOTOR_ADDRESS;
   
   if (SuperState == SUPERSTATE_DRIVE_FROM_MEMORY)
   {
@@ -207,9 +207,10 @@ void CompleteLap()
 }
 
 void CompleteLap_TurnLeft()
-{  
-  SetLeftMotorSpeed(0x00);
-  SetRightMotorSpeed(0xFF);
+{
+  P1SEL = 0;
+  TA0CCR1 = 0;
+  P1OUT = RIGHT_MOTOR_ADDRESS;
   
   if (SuperState == SUPERSTATE_DRIVE_FROM_MEMORY)
   {
@@ -249,8 +250,9 @@ void CompleteLap_TurnLeft()
 
 void CompleteLap_TurnRight()
 {  
-  SetLeftMotorSpeed(0xFF);
-  SetRightMotorSpeed(0x00);
+  P1SEL = LEFT_MOTOR_ADDRESS;
+  TA0CCR1 = 0xE0;
+  P1OUT = 0;
   
   if (SuperState == SUPERSTATE_DRIVE_FROM_MEMORY)
   {
@@ -290,8 +292,9 @@ void CompleteLap_TurnRight()
 
 void Stop()
 {
-  SetLeftMotorSpeed(0x88);
-  SetRightMotorSpeed(0x88);
+  P1SEL = 0;
+  TA0CCR1 = 0;
+  P1OUT = 0;
 }
 
 void ChangeSuperState(int superState)
@@ -457,4 +460,11 @@ __interrupt void ADC10_ISR (void)
     State = STATE_DRIVE_FORWARD;
   }
   __bic_SR_register_on_exit(CPUOFF); // Clear CPUOFF bit from 0(SR)
+}
+
+// Timer A0 interrupt service routine
+#pragma vector=TIMER1_A0_VECTOR
+__interrupt void Timer_A0 (void)
+{
+  Time++;
 }

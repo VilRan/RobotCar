@@ -1,8 +1,8 @@
 // Left Motor Port: 1.2 => Address: 0000 0100
 #define LEFT_MOTOR_ADDRESS 0x04
 
-// Right Motor Port: 2.0 => Address: 0000 0010
-#define RIGHT_MOTOR_ADDRESS 0x02
+// Right Motor Port: 1.7 => Address: 1000 0000
+#define RIGHT_MOTOR_ADDRESS 0x80
 
 // Right Sensor Port: 1.3 => Address: 0000 1000
 #define RIGHT_SENSOR_ADDRESS 0x08
@@ -25,13 +25,13 @@
 #define STATE_COMPLETE_LAP_TURN_RIGHT 6
 #define STATE_STOPPED 7
 
-#define MAX_LAPS 1
+#define MAX_LAPS 3
 
 #define FLASH_START_ADDRESS 0xD000
 #define FLASH_END_ADDRESS 0xE000
 
 int SuperState = SUPERSTATE_RECORDING;
-int State = STATE_DRIVE_FORWARD;
+int State = STATE_STANDBY;
 int Laps = 0;
 int MiddleSensorDetectsBlack = 0;
 int LeftSensorDetectsBlack = 0;
@@ -59,6 +59,4 @@ void WriteLongToFlash(char* address, long value);
 long ReadLongFromFlash(char* address);
 void BeginWriteToFlash();
 void EndWriteToFlash();
-void SetLeftMotorSpeed();
-void SetRightMotorSpeed();
 int ReadStateFromMemory();

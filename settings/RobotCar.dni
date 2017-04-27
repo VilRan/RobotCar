@@ -36,24 +36,23 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=133814367
+Checksum=70519515
 [State Storage]
-Control Register=49324
+Control Register=50530
 [Sequencer]
-Control Register=49324
-NextState0=49324
-NextState1=49324
+Control Register=50530
+NextState0=50530
+NextState1=50530
 [Action Register]
-Break=2
+Break=0
 State Storage=1
 [CallStack]
 ShowArgs=0
 [Disassembly]
 MixedMode=1
 [Breakpoints]
-Bp0=_ "STD_CODE" "{$PROJ_DIR$\Main.c}.312.5" 1 0 0 0 "" 0 ""
-Bp1=_ "STD_CODE" "{$PROJ_DIR$\Main.c}.323.7" 0 0 0 0 "" 0 ""
-Count=2
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\Main.c}.16.5" 0 0 0 0 "" 0 ""
+Count=1
 [FET]
 Clock mode=38
 Extended Clock mode=-1
